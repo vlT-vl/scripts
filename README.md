@@ -1,2 +1,2 @@
-![Alt text](/scripts.png?raw=true)
+![Alt text](/repository/scripts.png?raw=true)
 # scripts
