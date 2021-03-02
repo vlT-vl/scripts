@@ -1,2 +1,2 @@
-![Alt text](/scripts.logo.png?raw=true)
+![Alt text](/scripts.png?raw=true)
 # scripts
