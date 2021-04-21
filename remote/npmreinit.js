@@ -1,6 +1,6 @@
 // npmreinit.js <> Code
 // Javascript Expansion Module
-// ver: 0r1-18022021
+// ver: 0r21042021
 // Copyright © 2021 vlT - vl.TECH di Veronesi Lorenzo
 //******************************************************************************
 
@@ -10,21 +10,8 @@ const fs = require('fs');
 const os = require('os');
 const platfrom = os.platform();
 const userHome = os.homedir();
+const shellexec = require('./shellexec.js');
 let npmPath
-// </editor-fold>
-
-// <editor-fold> Funzioni modulo integrate
-//> shellexec
-async function shellexec(comando) {
-  return new Promise(function(resolve) {
-    exec(comando, function(error, stdout, stderr) {
-      if (error !== null) {
-        console.log('shellexec: ' + error);
-      }
-      resolve(stdout)
-    });
-  });
-}
 // </editor-fold>
 
 // <editor-fold> Funzione del Modulo
