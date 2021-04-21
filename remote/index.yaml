@@ -8,3 +8,5 @@
   descrizione: script che reinizializza npm con i pacchetti di base (nexe electron)
   scriptname: npmreinit.js
   jsraw: https://raw.githubusercontent.com/vlT-vl/scripts/main/remote/npmreinit.js
+  module: shellexec-test
+  
