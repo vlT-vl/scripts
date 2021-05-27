@@ -1,6 +1,6 @@
 // npmreinit.js <> Code
 // Javascript Expansion Module
-// ver: 0r21042021
+// ver: 0r3-27052021
 // Copyright © 2021 vlT - vl.TECH di Veronesi Lorenzo
 //******************************************************************************
 
@@ -25,7 +25,7 @@ async function npmreinit() {
   if (fs.existsSync(npmPath)) {
     console.log("");
     console.log("Eliminazione della cartella npm");
-    fs.rmdirSync(npmPath, {
+    fs.rmSync(npmPath, {
       recursive: true
     });
     console.log("");
